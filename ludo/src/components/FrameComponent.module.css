@@ -1,0 +1,66 @@
+.screenshot20240416At155 {
+  height: 52px;
+  width: 49px;
+  position: relative;
+  object-fit: cover;
+  min-height: 52px;
+}
+.menu111Icon {
+  width: 48px;
+  height: 48px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.menu111Wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0px 0px;
+}
+.home {
+  align-self: stretch;
+  position: relative;
+  line-height: 120%;
+  color: var(--dark);
+}
+.discover {
+  align-self: stretch;
+  position: relative;
+  line-height: 120%;
+}
+.specialDeals {
+  align-self: stretch;
+  position: relative;
+  line-height: 120%;
+  white-space: nowrap;
+}
+.homeParent {
+  height: 17px;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-45xl);
+  max-width: 100%;
+}
+.screenshot20240416At155Parent {
+  position: absolute;
+  top: 0px;
+  left: 16px;
+  width: 358px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-13xl) 0px;
+  box-sizing: border-box;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  z-index: 1;
+  text-align: left;
+  font-size: var(--button-size);
+  color: var(--grey-scale-black-50);
+  font-family: var(--button);
+}

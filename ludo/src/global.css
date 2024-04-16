@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Circular+Std:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;600;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nico+Moji:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bangers:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-bangers: Bangers;
+  --font-inter: Inter;
+  --font-nico-moji: "Nico Moji";
+  --button: "Circular Std";
+
+  /* font sizes */
+  --font-size-45xl: 64px;
+  --font-size-5xl: 24px;
+  --font-size-2xs: 11px;
+  --font-size-13xl: 32px;
+  --font-size-21xl: 40px;
+  --button-size: 14px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-yellow-100: #fff613;
+  --color-whitesmoke: #f5f2ed;
+  --color-black: #000;
+  --color-red: rgba(255, 0, 0, 0.1);
+  --color-khaki: #fcf092;
+  --dark: #222831;
+  --grey-scale-black-50: rgba(25, 24, 37, 0.5);
+
+  /* Gaps */
+  --gap-xl: 20px;
+  --gap-45xl: 64px;
+
+  /* Paddings */
+  --padding-13xl: 32px;
+  --padding-11xs: 2px;
+
+  /* Border radiuses */
+  --br-2xs: 11px;
+  --br-13xl: 32px;
+  --br-mid: 17px;
+}
